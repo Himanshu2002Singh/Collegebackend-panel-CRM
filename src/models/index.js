@@ -650,7 +650,7 @@ const TrainingStudent = sequelize.define('TrainingStudent', {
   enrolledAt: { type: DataTypes.DATE, defaultValue: DataTypes.NOW }
 }, {
   indexes: [
-    { fields: ['trainingId', 'studentId'], unique: true }
+    { fields: ['training_id', 'student_id'], unique: true }
   ]
 });
 
